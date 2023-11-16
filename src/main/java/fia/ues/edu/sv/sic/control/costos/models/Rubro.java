@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "RUBRO")
-public class Rubro{
+public class Rubro {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,4 +21,6 @@ public class Rubro{
     @Column(name = "NOMBRE_RUBRO")
     private String nombreRubro;
 
+    
+    
 }

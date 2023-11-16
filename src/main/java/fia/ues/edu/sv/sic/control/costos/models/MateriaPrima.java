@@ -27,7 +27,7 @@ public class MateriaPrima{
     @Column(name = "COSTO_UNITARIO_MATERIA")
     private Double costoUnitarioMateria;
 
-    @Column(name = "COSTO_UNITARIO_MATERIA")
+    @Column(name = "FLETE_MATERIA")
     private Double fleteMateria;
 
 }
