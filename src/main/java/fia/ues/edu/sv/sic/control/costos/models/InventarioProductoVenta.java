@@ -18,7 +18,7 @@ public class InventarioProductoVenta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID_INVENTARIO_PPV")
-    private Long idInventarioMP;
+    private Long idInventarioPPV;
 
     @JoinColumn(name = "ID_PRODUCTO", referencedColumnName = "ID_PRODUCTO")
     @ManyToOne
@@ -28,6 +28,6 @@ public class InventarioProductoVenta {
     private String lote;
 
     @Column(name = "IPPV_CANTIDAD")
-    private Long cantidad;
+    private Integer cantidad;
 
 }

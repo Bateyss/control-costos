@@ -20,7 +20,5 @@ public class Rubro {
 
     @Column(name = "NOMBRE_RUBRO")
     private String nombreRubro;
-
-    
     
 }

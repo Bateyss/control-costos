@@ -31,9 +31,9 @@ public class InventarioMateriaPrima {
     private Boolean esImportado;
     
     @Column(name = "IMP_FLETE")
-    private String flete;
+    private Double flete;
 
     @Column(name = "IMP_CANTIDAD")
-    private Long cantidad;
+    private Integer cantidad;
 
 }
