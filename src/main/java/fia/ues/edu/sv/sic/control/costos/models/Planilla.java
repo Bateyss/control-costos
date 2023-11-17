@@ -20,8 +20,8 @@ public class Planilla{
     @Column(name = "ID_PLANILLA")
     private Long idPlanilla;
 
-    @Column(name = "NOMBRE_PRODUCTO")
-    private String nombreProducto;
+    @Column(name = "NOMBRE")
+    private String nombre;
 
     @JoinColumn(name = "ID_PUESTO", referencedColumnName = "ID_PUESTO")
     @ManyToOne
